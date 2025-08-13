@@ -35,63 +35,6 @@
     border-bottom: solid 3px blue !important;
 }
 
-main{
-    margin: 5%;
-}
-
-/*mainData*/
-#mainData div{
-    display: flex;
-}
-
-#mainData div div{
-    display: block;
-    margin: 10px;
-}
-
-#mainData div div img{
-    width: 500px;
-}
-
-/*mainMarcas*/
-#mainMarcas div{
-    text-align: center;
-    overflow-x: auto;
-    padding: 10px;
-}
-
-#mainMarcas div:last-child{
-    display: flex;
-    justify-content: center;
-}
-
-#mainMarcas div div{
-   margin: 10px;
-   overflow-x: unset; 
-
-}
-
-/*mainEspecialidades*/
-#mainEspecialidades div{
-    text-align: center;
-    margin: 15px 0px 15px 0px;
-}
-
-#mainEspecialidades div:last-child{
-    display: flex;
-    justify-content: center;
-}
-
-#mainEspecialidades div div{
-    display: block !important;
-    margin: 10px;
-   
-}
-
-#mainEspecialidades div div img{
-    width: 300px;
-}
-
 
 /*Productos*/
 #mainProductos{
@@ -127,34 +70,7 @@ main{
     margin: 15px;
 }
 
-/*Especialidades*/
 
-#especialidades section div{
-    display: flex;
-}
-
-#especialidades section div div{
-    display: block;
-    padding: 15px;
-}
-
-/*Prducto*/
-#producto section{
-    display: flex;
-}
-
-#producto section div{
-    padding: 15px;
-}
-
-#producto section div button{
-    top: 0px;
-    width: 100%;
-}
-
-#producto section div button:hover{
-    cursor: pointer;
-}
 
 /*Carrito*/
 #carrito{
