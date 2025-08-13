@@ -13,12 +13,9 @@
         overflow-x: auto;
 }
 
-.button{
-    background-color: #00a5d2 ;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
+.disabled-desktop{
+    display:none !important;
+    
 }
 
 
@@ -93,6 +90,18 @@
     display: block;
 }
 
+/*Productos*/
+.link-card{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.link-card:hover{
+    text-decoration: none;
+    color: black;
+    
+}
 
 
 
@@ -113,7 +122,6 @@
     .enabled-movil{
         display: block !important;
     }
-
 }
 
 
