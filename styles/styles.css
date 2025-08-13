@@ -33,26 +33,6 @@
 }
 
 
-/*Productos*/
-#mainProductos{
-    display: flex;
-}
-
-#mainProductos #productos div{
-    display: inline-block;
-    width: 80%;
-}
-
-#mainProductos #productos div:last-child{
-    position: relative;
-    display: flex;
-}
-
-#mainProductos #productos div:last-child a img{
-    width: 100px;
-}
-
-
 /*Contactanos*/
 #contactanos div div{
     display: flex;
@@ -104,7 +84,6 @@
 }
 
 
-
 /*Movil*/
 @media(max-width: 575px){
     .disabled-movil{
@@ -123,11 +102,3 @@
         display: block !important;
     }
 }
-
-
-
-
-
-
-
-
