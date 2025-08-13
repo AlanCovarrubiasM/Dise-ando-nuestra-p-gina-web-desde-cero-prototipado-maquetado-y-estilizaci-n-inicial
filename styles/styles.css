@@ -1,0 +1,209 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: 0px;
+}
+
+/*Reusable Classes*/
+.firstColor{
+    background-color: #d1f2eb !important;
+}
+
+.horizontal-scroll {
+        overflow-x: auto;
+}
+
+.button{
+    background-color: #00a5d2 ;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+/*Menu*/
+.selected{
+    text-decoration: none;
+    font-size: x-large !important;
+}
+
+.selected-hover:hover{
+    text-decoration: none;
+    color: blue !important;
+    font-size: large;
+    border-bottom: solid 3px blue !important;
+}
+
+main{
+    margin: 5%;
+}
+
+/*mainData*/
+#mainData div{
+    display: flex;
+}
+
+#mainData div div{
+    display: block;
+    margin: 10px;
+}
+
+#mainData div div img{
+    width: 500px;
+}
+
+/*mainMarcas*/
+#mainMarcas div{
+    text-align: center;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+#mainMarcas div:last-child{
+    display: flex;
+    justify-content: center;
+}
+
+#mainMarcas div div{
+   margin: 10px;
+   overflow-x: unset; 
+
+}
+
+/*mainEspecialidades*/
+#mainEspecialidades div{
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+}
+
+#mainEspecialidades div:last-child{
+    display: flex;
+    justify-content: center;
+}
+
+#mainEspecialidades div div{
+    display: block !important;
+    margin: 10px;
+   
+}
+
+#mainEspecialidades div div img{
+    width: 300px;
+}
+
+
+/*Productos*/
+#mainProductos{
+    display: flex;
+}
+
+#mainProductos #productos div{
+    display: inline-block;
+    width: 80%;
+}
+
+#mainProductos #productos div:last-child{
+    position: relative;
+    display: flex;
+}
+
+#mainProductos #productos div:last-child a img{
+    width: 100px;
+}
+
+
+/*Contactanos*/
+#contactanos div div{
+    display: flex;
+}
+
+#contactanos #atencion, #contactanos #atencion div{
+    display: block;
+}
+
+#contactanos #mapas div{
+    display: block;
+    margin: 15px;
+}
+
+/*Especialidades*/
+
+#especialidades section div{
+    display: flex;
+}
+
+#especialidades section div div{
+    display: block;
+    padding: 15px;
+}
+
+/*Prducto*/
+#producto section{
+    display: flex;
+}
+
+#producto section div{
+    padding: 15px;
+}
+
+#producto section div button{
+    top: 0px;
+    width: 100%;
+}
+
+#producto section div button:hover{
+    cursor: pointer;
+}
+
+/*Carrito*/
+#carrito{
+    display: flex;
+}
+
+#carrito section:first-child div{
+    display: flex;
+}
+
+#carrito section:first-child div div div{
+    display: flex;
+}
+
+#carrito section:first-child div div img{
+    width: 200px;
+}
+
+#carrito section:first-child div div div div{
+    display: block;
+}
+
+
+
+
+/*Movil*/
+@media(max-width: 575px){
+    .disabled-movil{
+        display: none !important;
+    }
+
+    .align-item-movil{
+        align-items: baseline !important;
+    }
+
+    .size-images{
+        width: 100% !important;
+    }
+
+    .enabled-movil{
+        display: block !important;
+    }
+
+}
+
+
+
+
+
+
+
+
