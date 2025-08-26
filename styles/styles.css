@@ -4,6 +4,10 @@
     margin: 0px;
 }
 
+a{
+    color: black;
+}
+
 /*Reusable Classes*/
 .firstColor{
     background-color: #d1f2eb !important;
@@ -32,22 +36,7 @@
     border-bottom: solid 3px blue !important;
 }
 
-
 /*Contactanos*/
-#contactanos div div{
-    display: flex;
-}
-
-#contactanos #atencion, #contactanos #atencion div{
-    display: block;
-}
-
-#contactanos #mapas div{
-    display: block;
-    margin: 15px;
-}
-
-
 
 /*Carrito*/
 #carrito{
