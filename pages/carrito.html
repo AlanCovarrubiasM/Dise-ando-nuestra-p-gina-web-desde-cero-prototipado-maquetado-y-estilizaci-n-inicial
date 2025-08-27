@@ -42,47 +42,79 @@
             </nav>
             </div>
         </header>
-        <main id="carrito">
-            <section>
-                <h1>Carrito de compras</h1>
-                <div>
-                    <div>
+        <main class="m-4 m-sm-5 d-flex flex-wrap flex-sm-nowrap">
+            <section class="width-avilable">
+                <div id="producto1" class="media mb-5">
+                    <img class="mr-3 d-flex size-image-carrito" src="../assets/img/productoExample.jpg" alt="Imagen descripcion de producto" width="10%">
+                    <div class="media-body d-flex justify-content-between">
                         <div>
-                            <img src="../assets/img/equipoDental.webp" alt="Imagen de producto de carrito de compras">
-                            <div>
-                                <h2>Producto1</h2>
-                                <h3>Categoria: Ropa</h3>
-                                <div>
-                                    <button><img class="iconSize" src="../assets/img/masIcon.png"></button>
-                                    <input type="number" value="1">
-                                    <button><img class="iconSize" src="../assets/img/menos.png"></button>
-                                    
-                                </div>
+                            <h5 class="m-0 font-size-movil font-weight-bold">Producto 1</h5>
+                            <p class="m-1">Categoria: Ropa</p>
+                            <div class="firstColor d-flex justify-content-around align-items-center p-1">
+                                <button class="rounded-circle size-buttons-carrito">-</button>
+                                <span id="valor">0</span>
+                                <button class="rounded-circle size-buttons-carrito">+</button>
                             </div>
                         </div>
-                    </div>
-                    <div>
-                        <div>
-                            <h3>Total productos</h3>
-                            <button><img class="iconSize" src="../assets/img/x.png"></button>
+                        <div class="d-flex flex-column">
+                            <button type="button" class="d-flex justify-content-end btn btn-link justify-content-end"><img class="size-icon-carrito-close" src="../assets/img/x.png"></button>
+                            <h5 class="font-size-movil d-flex justify-content-end">Total producto</h5>
+                            <h5 class="font-size-movil d-flex justify-content-end">$1200</h5>              
                         </div>
-                        $1200
-                    </div>
+                    </div>  
+                </div>
+                <div id="producto2" class="media mb-5">
+                    <img class="mr-3 d-flex size-image-carrito" src="../assets/img/productoExample.jpg" alt="Imagen descripcion de producto" width="10%">
+                    <div class="media-body d-flex justify-content-between">
+                        <div>
+                            <h5 class="m-0 font-size-movil font-weight-bold">Producto 2</h5>
+                            <p class="m-1">Categoria: Ropa</p>
+                            <div class="firstColor d-flex justify-content-around align-items-center p-1">
+                                <button class="rounded-circle size-buttons-carrito">-</button>
+                                <span id="valor">0</span>
+                                <button class="rounded-circle size-buttons-carrito">+</button>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <button type="button" class="d-flex justify-content-end btn btn-link justify-content-end"><img class="size-icon-carrito-close" src="../assets/img/x.png"></button>
+                            <h5 class="font-size-movil d-flex justify-content-end">Total producto</h5>
+                            <h5 class="font-size-movil d-flex justify-content-end">$1200</h5>              
+                        </div>
+                    </div>  
+                </div>
+                <div id="producto3" class="media mb-5">
+                    <img class="mr-3 d-flex size-image-carrito" src="../assets/img/productoExample.jpg" alt="Imagen descripcion de producto" width="10%">
+                    <div class="media-body d-flex justify-content-between">
+                        <div>
+                            <h5 class="m-0 font-size-movil font-weight-bold">Producto 3</h5>
+                            <p class="m-1">Categoria: Ropa</p>
+                            <div class="firstColor d-flex justify-content-around align-items-center p-1">
+                                <button class="rounded-circle size-buttons-carrito">-</button>
+                                <span id="valor">0</span>
+                                <button class="rounded-circle size-buttons-carrito">+</button>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <button type="button" class="d-flex justify-content-end btn btn-link justify-content-end"><img class="size-icon-carrito-close" src="../assets/img/x.png"></button>
+                            <h5 class="font-size-movil d-flex justify-content-end">Total producto</h5>
+                            <h5 class="font-size-movil d-flex justify-content-end">$1200</h5>              
+                        </div>
+                    </div>  
                 </div>
             </section>
-            <section class="firstColor">
-                <h2>Contizacion de productos</h2>
-                <div>
-                    <div>
-                        <p>Subtotal</p>
-                        <p>$4800</p>
+            <section class="ml-sm-5 width-avilable">
+                <div class="firstColor p-3">
+                    <h4 class="mb-4">Contizacion de productos</h4>
+                    <div class="d-flex justify-content-between">
+                        <h5>Subtotal:</h5>
+                        <h5>$1200</h5>
                     </div>
-                    <div>
-                        <p>Total</p>
-                        <p>$5000</p>
+                    <div class="d-flex justify-content-between">
+                        <h5>Total:</h5>
+                        <h5>$1400</h5>
                     </div>
-                    <h3>Estos productos ya incluyen IVA</h3>
-                    <button class="button">Descargar</button>
+                    <p class="font-weight-light text-secondary">Estos productos se agrega el IVA.</p>
+                    <button class="btn btn-primary">Descargar</button>
                 </div>
             </section>
         </main>

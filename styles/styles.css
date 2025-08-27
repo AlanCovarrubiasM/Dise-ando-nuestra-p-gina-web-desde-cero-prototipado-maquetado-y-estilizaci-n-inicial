@@ -1,93 +1,79 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    margin: 0px;
+/*Maxin*/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  margin: 0px;
 }
 
-a{
-    color: black;
+a {
+  color: black;
 }
 
 /*Reusable Classes*/
-.firstColor{
-    background-color: #d1f2eb !important;
+.firstColor {
+  background-color: #d1f2eb !important;
 }
 
 .horizontal-scroll {
-        overflow-x: auto;
+  overflow-x: auto;
 }
 
-.disabled-desktop{
-    display:none !important;
-    
+.disabled-desktop {
+  display: none !important;
 }
 
+.width-avilable {
+  width: -webkit-fill-available;
+}
+
+.cards, .link-card:hover, .link-card, .selected {
+  text-decoration: none;
+  color: black;
+}
 
 /*Menu*/
-.selected{
-    text-decoration: none;
-    font-size: x-large !important;
+.selected {
+  font-size: x-large !important;
 }
 
-.selected-hover:hover{
-    text-decoration: none;
-    color: blue !important;
-    font-size: large;
-    border-bottom: solid 3px blue !important;
+.selected-hover:hover {
+  text-decoration: none;
+  color: blue !important;
+  font-size: large;
+  border-bottom: solid 3px blue !important;
 }
 
 /*Contactanos*/
-
 /*Carrito*/
-#carrito{
-    display: flex;
-}
-
-#carrito section:first-child div{
-    display: flex;
-}
-
-#carrito section:first-child div div div{
-    display: flex;
-}
-
-#carrito section:first-child div div img{
-    width: 200px;
-}
-
-#carrito section:first-child div div div div{
-    display: block;
+.size-buttons-carrito {
+  width: 30px !important;
+  height: 30px;
 }
 
 /*Productos*/
-.link-card{
-    text-decoration: none;
-    color: black;
-    
-}
-
-.link-card:hover{
-    text-decoration: none;
-    color: black;
-    
-}
-
-
 /*Movil*/
-@media(max-width: 575px){
-    .disabled-movil{
-        display: none !important;
-    }
-
-    .align-item-movil{
-        align-items: baseline !important;
-    }
-
-    .size-images{
-        width: 100% !important;
-    }
-
-    .enabled-movil{
-        display: block !important;
-    }
+@media (max-width: 575px) {
+  .disabled-movil {
+    display: none !important;
+  }
+  .align-item-movil {
+    align-items: baseline !important;
+  }
+  .size-images {
+    width: 100% !important;
+  }
+  .enabled-movil {
+    display: block !important;
+  }
+  .size-icon-carrito-close {
+    height: 15px !important;
+  }
+  .size-image-carrito {
+    width: 25% !important;
+  }
+  .font-size-movil {
+    font-size: 1em;
+  }
 }
+
+/*# sourceMappingURL=styles.css.map */

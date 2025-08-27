@@ -1,0 +1,112 @@
+$firstColor: #d1f2eb !important;
+$blackColor: black;
+$blueColor : blue;
+
+
+/*Maxin*/
+@mixin width-important($width){
+     width: $width !important;
+}
+
+@mixin height-important($height){
+     height: $height !important;
+}
+
+@mixin selected-menu($color, $fontSize){
+    text-decoration: none;
+    color: blue !important;
+    font-size: large;
+    border-bottom: solid 3px blue !important;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: 0px;
+}
+
+a{
+    color: $blackColor;
+}
+
+/*Reusable Classes*/
+.firstColor{
+    background-color: $firstColor;
+}
+
+.horizontal-scroll {
+    overflow-x: auto;
+}
+
+.disabled-desktop{
+    display:none !important;
+    
+}
+
+.width-avilable{
+    width: -webkit-fill-available;
+}
+
+.cards{
+    text-decoration: none;
+    color: $blackColor;
+}
+
+/*Menu*/
+.selected{
+    @extend .cards;
+    font-size: x-large !important;
+}
+
+.selected-hover:hover{
+    @include selected-menu(blue, large);
+}
+
+/*Contactanos*/
+
+/*Carrito*/
+.size-buttons-carrito{
+    @include width-important(30px);
+    height: 30px;
+}
+
+/*Productos*/
+.link-card{
+    @extend .cards;
+    
+}
+
+.link-card:hover{
+    @extend .cards;
+}
+
+/*Movil*/
+@media(max-width: 575px){
+    .disabled-movil{
+        display: none !important;
+    }
+
+    .align-item-movil{
+        align-items: baseline !important;
+    }
+
+    .size-images{
+        @include width-important(100%);;
+    }
+
+    .enabled-movil{
+        display: block !important;
+    }
+
+    .size-icon-carrito-close{
+        height: 15px !important;
+    }
+
+    .size-image-carrito{
+        @include width-important(25%);
+    }
+
+    .font-size-movil{
+        font-size: 1em;
+    }
+}
